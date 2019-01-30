@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am a 3rd year Computer Science major at UF with a passion for learning new tech and working on interesting projects. Currently seeking internships for Summer 2019.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jperitz@ufl.edu](mailto:jperitz@ufl.edu)
