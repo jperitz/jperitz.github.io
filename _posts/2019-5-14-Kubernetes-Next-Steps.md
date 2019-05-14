@@ -48,6 +48,7 @@ VALUES
   ('Jonathan', 'green'),
   ('Richard', 'yellow');
 ```
+
 ```
 #/app/requirements.txt
 Flask==0.12.3
@@ -104,6 +105,7 @@ services:
     labels:
       kompose.service.type: nodeport
 ```
+
 The app container is built from the image created earlier,linked to the db container, with exposed port 5000. The db container is built from a MySQL image which mounts the sql file as a volume that docker can access. The purpose of the volume is persistent storage, which means that even if the database container is destroyed, the volume will still hold all the data, and you can just create another container. The docker-compose file was easier for me to write and understand than having to write several yaml files for kubernetes, so I used kompose to convert to a format kubernetes prefers. I ran the following command to convert from docker-compose.yaml to four new .yaml files: 
 ```
 kompose --file docker-compose.yaml comvert --volumes hostPath
