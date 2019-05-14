@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt: Today, in our age of computing, many technological concepts have grown so abstract that even comprehending them is a challenge. Still, the best way to understand something is to dive right in and try it yourself. Now I’ll be trying that with Kubernetes.
 title: Kubernetes: A Beginner's Perspective
 ---
 Today, in our age of computing, many technological concepts have grown so abstract that even comprehending them is a challenge. Still, the best way to understand something is to dive right in and try it yourself. Now I’ll be trying that with Kubernetes.
