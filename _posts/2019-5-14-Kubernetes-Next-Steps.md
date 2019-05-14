@@ -135,4 +135,4 @@ That scales down the number of replicas of the app to 0. Kubernetes will drive t
 
 There you have it! A simple locally hosted web app with docker and kubernetes that can serve as a template for small projects. The app itself is minimalist and not very attractive, but changing that is just a matter of adding more html, css and changing app.py to route to more pages. 
 
-Source available here: https://github.com/jperitz/Kubernetes_Project2
+Source available here: <https://github.com/jperitz/Kubernetes_Project2>
